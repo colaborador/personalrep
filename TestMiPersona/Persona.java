@@ -1,6 +1,9 @@
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+/*
+* Clase con los atributos de una persona
+*/
 public class Persona implements java.io.Serializable{
 	private String nombre, apellidos;
 	private Calendar fecha;

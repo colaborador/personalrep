@@ -13,7 +13,7 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 /**
- *  Este programa realiza sumas acumuladas de enteros bajo los siguientes requisitos: 
+ *  Este programa realiza sumas acumuladas de enteros.
  */
 public class AcumulaSumas {
 	
