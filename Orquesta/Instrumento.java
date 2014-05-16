@@ -38,7 +38,7 @@ public abstract class Instrumento {
 	 * @param instrumento String que designa el nombre del instrumento
 	 */
 	Instrumento(String instrumento){
-		setInstrumento(instrumento);
+		this.instrumento=instrumento;
 	}
 	
 	//Metodos set y get
@@ -48,14 +48,6 @@ public abstract class Instrumento {
 	 */
 	protected String getInstrumento() {
 		return instrumento;
-	}
-
-	/**
-	 * Metodo set del instrumento
-	 * @param instrumento Cadena con el nombre del instrumento
-	 */
-	private void setInstrumento(String instrumento) {
-		this.instrumento = instrumento;
 	}
 	
 	//Metodos

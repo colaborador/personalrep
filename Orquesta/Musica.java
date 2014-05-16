@@ -8,7 +8,7 @@ public class Musica implements Orquesta{
 	 * @param orquesta ArrayList del conjunto de instrumentos
 	 */
 	Musica(ArrayList<Instrumento> orquesta){
-		setOrquesta(orquesta);
+		this.orquesta=orquesta;
 	}
 	/**
 	 * Metodo get que devuelve un arraylist con el conjunto de instrumentos
@@ -16,14 +16,6 @@ public class Musica implements Orquesta{
 	 */
 	public ArrayList<Instrumento> getOrquesta() {
 		return orquesta;
-	}
-
-	/**
-	 * Metodo set de orquesta
-	 * @param orquesta ArrayList de instrumentos
-	 */
-	private void setOrquesta(ArrayList<Instrumento> orquesta) {
-		this.orquesta = orquesta;
 	}
 
 	/**

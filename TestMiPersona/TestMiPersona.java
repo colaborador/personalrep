@@ -30,6 +30,7 @@ public class TestMiPersona {
 			System.out.println(input.readObject());
 		}
 		
+		//Captura de excepciones
 		catch(NotSerializableException e){
 			System.err.println("Clase no serializada");
 		}
